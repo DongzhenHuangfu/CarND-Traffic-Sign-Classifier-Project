@@ -17,8 +17,8 @@ The goals of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/data_bar.jpg "Data distribution in bar"
-[image2]: ./examples/data_bar.png "Data distribution in table"
-[image3]: ./download_picture/0.jpg "pic 0"
+[image2]: ./examples/data_bar.jpg "Data distribution in table"
+[image3]: ./download_picture/0.jpg "pic 0" 
 [image4]: ./download_picture/3.jpg "pic 3"
 [image5]: ./download_picture/11.jpg "pic 11"
 [image6]: ./download_picture/12.jpg "pic 12"
@@ -44,17 +44,17 @@ The goals of this project are the following:
 [image26]: ./download_picture/softmax_30.jpg "softmax 30"
 [image27]: ./download_picture/softmax_31.jpg "softmax 31"
 [image28]: ./visualization/0_layer1.jpg "layer1 0"
-[image29]: ./download_picture/3_layer1.jpg "layer1 3"
-[image30]: ./download_picture/11_layer1.jpg "layer1 11"
-[image31]: ./download_picture/12_layer1.jpg "layer1 12"
-[image32]: ./download_picture/14_layer1.jpg "layer1 14"
-[image33]: ./download_picture/19_layer1.jpg "layer1 19"
-[image34]: ./download_picture/21_layer1.jpg "layer1 21"
-[image35]: ./download_picture/24_layer1.jpg "layer1 24"
-[image36]: ./download_picture/25_layer1.jpg "layer1 25"
-[image37]: ./download_picture/27_layer1.jpg "layer1 27"
-[image38]: ./download_picture/30_layer1.jpg "layer1 30"
-[image39]: ./download_picture/31_layer1.jpg "layer1 31"
+[image29]: ./visualization/3_layer1.jpg "layer1 3"
+[image30]: ./visualization/11_layer1.jpg "layer1 11"
+[image31]: ./visualization/12_layer1.jpg "layer1 12"
+[image32]: ./visualization/14_layer1.jpg "layer1 14"
+[image33]: ./visualization/19_layer1.jpg "layer1 19"
+[image34]: ./visualization/21_layer1.jpg "layer1 21"
+[image35]: ./visualization/24_layer1.jpg "layer1 24"
+[image36]: ./visualization/25_layer1.jpg "layer1 25"
+[image37]: ./visualization/27_layer1.jpg "layer1 27"
+[image38]: ./visualization/30_layer1.jpg "layer1 30"
+[image39]: ./visualization/31_layer1.jpg "layer1 31"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -152,10 +152,10 @@ From the result we can see that the F value of the following signs are relevantl
 
 To test my model, I found the following traffic signs online:
 
-![alt text][image3] ![alt text][image4] ![alt text][image5] 
-![alt text][image6] ![alt text][image7] ![alt text][image8]
-![alt text][image9] ![alt text][image10] ![alt text][image11]
-![alt text][image12] ![alt text][image13] ![alt text][image14]
+![alt text][image3]{:height="30%" width="30%"} ![alt text][image4]{:height="30%" width="30%"}  ![alt text][image5]{:height="30%" width="30%"}  
+![alt text][image6]{:height="30%" width="30%"} ![alt text][image7]{:height="30%" width="30%"}  ![alt text][image8]{:height="30%" width="30%"} 
+![alt text][image9]{:height="30%" width="30%"} ![alt text][image10]{:height="30%" width="30%"}  ![alt text][image11]{:height="30%" width="30%"} 
+![alt text][image12]{:height="30%" width="30%"} ![alt text][image13]{:height="30%" width="30%"}  ![alt text][image14]{:height="30%" width="30%"} 
 
 Here are the results of the prediction:
 
@@ -180,10 +180,10 @@ The model was able to correctly guess 6 of the 6 traffic signs, which gives an a
 To make it more clear, I also tried to show the top 5 of the softmax matrix:
 
 
-![alt text][image16] ![alt text][image17] ![alt text][image18] 
-![alt text][image19] ![alt text][image20] ![alt text][image21]
-![alt text][image22] ![alt text][image23] ![alt text][image24]
-![alt text][image25] ![alt text][image26] ![alt text][image27]
+![alt text][image16]{:height="30%" width="30%"} ![alt text][image17]{:height="30%" width="30%"}  ![alt text][image18]{:height="30%" width="30%"}  
+![alt text][image19]{:height="30%" width="30%"} ![alt text][image20]{:height="30%" width="30%"}  ![alt text][image21]{:height="30%" width="30%"} 
+![alt text][image22]{:height="30%" width="30%"} ![alt text][image23]{:height="30%" width="30%"}  ![alt text][image24]{:height="30%" width="30%"} 
+![alt text][image25]{:height="30%" width="30%"} ![alt text][image26]{:height="30%" width="30%"} ![alt text][image27]{:height="30%" width="30%"} 
 
 For the 1st image, the model totally wrong, it is not sure and says that this maybe a 'Slippery road'(probability of 0.408), and the image actually contain a 'Speed limit (20km/h)'. and the top five soft max contains also not the right answer. Corresponding to the 63.33% precision rate of 'Speed limit (20km/h)' and 80.47% recall rate of 'Slippery road' in test set.
 
@@ -213,17 +213,9 @@ For the 12th image, the model is very sure that this is a 'Wild animals crossing
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 The visual output of the first layer are like the follows:
 
-![alt text][image28] 
-![alt text][image29] 
-![alt text][image30] 
-![alt text][image31] 
-![alt text][image32] 
-![alt text][image33]
-![alt text][image34] 
-![alt text][image35] 
-![alt text][image36]
-![alt text][image37] 
-![alt text][image38] 
-![alt text][image39]
+![alt text][image28]{:height="30%" width="30%"} ![alt text][image29]{:height="30%" width="30%"} ![alt text][image30]{:height="30%" width="30%"} 
+![alt text][image31]{:height="30%" width="30%"} ![alt text][image32]{:height="30%" width="30%"} ![alt text][image33]{:height="30%" width="30%"}
+![alt text][image34]{:height="30%" width="30%"} ![alt text][image35]{:height="30%" width="30%"} ![alt text][image36]{:height="30%" width="30%"}
+![alt text][image37]{:height="30%" width="30%"} ![alt text][image38]{:height="30%" width="30%"} ![alt text][image39]{:height="30%" width="30%"}
 
 We can find that it takes the shape of the sign and also the content into account when doing a prediction.
