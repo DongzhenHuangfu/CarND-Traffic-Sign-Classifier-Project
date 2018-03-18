@@ -3,7 +3,7 @@
 ## README
 
 ---
-### Build a Traffic Sign Recognition Project**
+### Build a Traffic Sign Recognition Project
 
 The goals of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -17,44 +17,8 @@ The goals of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/data_bar.jpg "Data distribution in bar"
-[image2]: ./examples/data_bar.jpg "Data distribution in table"
-[image3]: ./download_picture/0.jpg "pic 0" 
-[image4]: ./download_picture/3.jpg "pic 3"
-[image5]: ./download_picture/11.jpg "pic 11"
-[image6]: ./download_picture/12.jpg "pic 12"
-[image7]: ./download_picture/14.jpg "pic 14"
-[image8]: ./download_picture/19.jpg "pic 19"
-[image9]: ./download_picture/21.jpg "pic 21"
-[image10]: ./download_picture/24.jpg "pic 24"
-[image11]: ./download_picture/25.jpg "pic 25"
-[image12]: ./download_picture/27.jpg "pic 27"
-[image13]: ./download_picture/30.jpg "pic 30"
-[image14]: ./download_picture/31.jpg "pic 31"
+[image2]: ./examples/data_list.png "Data distribution in table"
 [image15]: ./examples/precision_and_recall.png "precision of the test set"
-[image16]: ./download_picture/softmax_0.jpg "softmax 0"
-[image17]: ./download_picture/softmax_3.jpg "softmax 3"
-[image18]: ./download_picture/softmax_11.jpg "softmax 11"
-[image19]: ./download_picture/softmax_12.jpg "softmax 12"
-[image20]: ./download_picture/softmax_14.jpg "softmax 14"
-[image21]: ./download_picture/softmax_19.jpg "softmax 19"
-[image22]: ./download_picture/softmax_21.jpg "softmax 21"
-[image23]: ./download_picture/softmax_24.jpg "softmax 24"
-[image24]: ./download_picture/softmax_25.jpg "softmax 25"
-[image25]: ./download_picture/softmax_27.jpg "softmax 27"
-[image26]: ./download_picture/softmax_30.jpg "softmax 30"
-[image27]: ./download_picture/softmax_31.jpg "softmax 31"
-[image28]: ./visualization/0_layer1.jpg "layer1 0"
-[image29]: ./visualization/3_layer1.jpg "layer1 3"
-[image30]: ./visualization/11_layer1.jpg "layer1 11"
-[image31]: ./visualization/12_layer1.jpg "layer1 12"
-[image32]: ./visualization/14_layer1.jpg "layer1 14"
-[image33]: ./visualization/19_layer1.jpg "layer1 19"
-[image34]: ./visualization/21_layer1.jpg "layer1 21"
-[image35]: ./visualization/24_layer1.jpg "layer1 24"
-[image36]: ./visualization/25_layer1.jpg "layer1 25"
-[image37]: ./visualization/27_layer1.jpg "layer1 27"
-[image38]: ./visualization/30_layer1.jpg "layer1 30"
-[image39]: ./visualization/31_layer1.jpg "layer1 31"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -152,10 +116,10 @@ From the result we can see that the F value of the following signs are relevantl
 
 To test my model, I found the following traffic signs online:
 
-![alt text][image3]{:height="30%" width="30%"} ![alt text][image4]{:height="30%" width="30%"}  ![alt text][image5]{:height="30%" width="30%"}  
-![alt text][image6]{:height="30%" width="30%"} ![alt text][image7]{:height="30%" width="30%"}  ![alt text][image8]{:height="30%" width="30%"} 
-![alt text][image9]{:height="30%" width="30%"} ![alt text][image10]{:height="30%" width="30%"}  ![alt text][image11]{:height="30%" width="30%"} 
-![alt text][image12]{:height="30%" width="30%"} ![alt text][image13]{:height="30%" width="30%"}  ![alt text][image14]{:height="30%" width="30%"} 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/0.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/3.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/11.jpg"/></div>
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/12.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/14.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/19.jpg"/></div>
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/21.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/24.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/25.jpg"/></div> 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/27.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/30.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/31.jpg"/></div>
 
 Here are the results of the prediction:
 
@@ -179,11 +143,10 @@ The model was able to correctly guess 6 of the 6 traffic signs, which gives an a
 
 To make it more clear, I also tried to show the top 5 of the softmax matrix:
 
-
-![alt text][image16]{:height="30%" width="30%"} ![alt text][image17]{:height="30%" width="30%"}  ![alt text][image18]{:height="30%" width="30%"}  
-![alt text][image19]{:height="30%" width="30%"} ![alt text][image20]{:height="30%" width="30%"}  ![alt text][image21]{:height="30%" width="30%"} 
-![alt text][image22]{:height="30%" width="30%"} ![alt text][image23]{:height="30%" width="30%"}  ![alt text][image24]{:height="30%" width="30%"} 
-![alt text][image25]{:height="30%" width="30%"} ![alt text][image26]{:height="30%" width="30%"} ![alt text][image27]{:height="30%" width="30%"} 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_0.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_3.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_11.jpg"/></div>
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_12.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_14.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_19.jpg"/></div>
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_21.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_24.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_25.jpg"/></div> 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_27.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_30.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/download_picture/softmax_31.jpg"/></div>
 
 For the 1st image, the model totally wrong, it is not sure and says that this maybe a 'Slippery road'(probability of 0.408), and the image actually contain a 'Speed limit (20km/h)'. and the top five soft max contains also not the right answer. Corresponding to the 63.33% precision rate of 'Speed limit (20km/h)' and 80.47% recall rate of 'Slippery road' in test set.
 
@@ -213,9 +176,9 @@ For the 12th image, the model is very sure that this is a 'Wild animals crossing
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 The visual output of the first layer are like the follows:
 
-![alt text][image28]{:height="30%" width="30%"} ![alt text][image29]{:height="30%" width="30%"} ![alt text][image30]{:height="30%" width="30%"} 
-![alt text][image31]{:height="30%" width="30%"} ![alt text][image32]{:height="30%" width="30%"} ![alt text][image33]{:height="30%" width="30%"}
-![alt text][image34]{:height="30%" width="30%"} ![alt text][image35]{:height="30%" width="30%"} ![alt text][image36]{:height="30%" width="30%"}
-![alt text][image37]{:height="30%" width="30%"} ![alt text][image38]{:height="30%" width="30%"} ![alt text][image39]{:height="30%" width="30%"}
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/0_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/3_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/11_layer1.jpg"/></div> 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/12_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/14_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/19_layer1.jpg"/></div> 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/21_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/24_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/25_layer1.jpg"/></div> 
+<div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/27_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/30_layer1.jpg"/></div> <div align="center"><img width="30%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Traffic-Sign-Classifier-Project/tree/master/visualization/31_layer1.jpg"/></div> 
 
 We can find that it takes the shape of the sign and also the content into account when doing a prediction.
