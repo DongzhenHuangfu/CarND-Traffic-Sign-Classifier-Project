@@ -1,1 +1,1 @@
-activate CarND-Term1 & jupyter notebook Traffic_Sign_Classifier.ipynb
+jupyter notebook Traffic_Sign_Classifier.ipynb
